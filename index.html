@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Profesional - Martin Lizarraga</title>
+    
+    <!-- LINKS A LOS RECURSOS DE BOOTSTRAP Y ESTILOS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <!-- ENCABEZADO -->
+    <header class="custom-header fixed-top py-2">
+        <div class="container">
+            <div class="row align-items-center mb-2">
+                <div class="col-md-6 col-12 text-center text-md-start text-white">
+                    <div class="brand-title">Martin Lizarraga</div>
+                    <div class="brand-subtitle">Perfil Profesional</div>
+                </div>
+                
+                <!-- BOTONES DE DESCARGA -->
+                <div class="col-md-6 col-12 text-center text-md-end mt-2 mt-md-0 d-flex justify-content-center justify-content-md-end gap-2 align-items-center">
+
+                    <!-- SUBMENÚ: CARTA DE PRESENTACIÓN -->
+                    <div class="dropdown d-inline-block">
+                        <button class="btn btn-outline-light btn-download dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-envelope-open-text me-1"></i> Carta P. / Cover letter
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
+                            <li>
+                                <a class="dropdown-item" href="./documentos/Carta_Presentacion_Martin_Lizarraga_ES.pdf" target="_blank" title="Carta de Presentación Español" download>
+                                <i class="fas fa-language me-2 text-info"></i> Español
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="./documentos/Carta_Presentacion_Martin_Lizarraga_EN.pdf" target="_blank" title="Carta de Presentación Inglés" download>
+                                    <i class="fas fa-globe me-2 text-warning"></i> English
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- SUBMENÚ: DESCARGA CV -->
+                    <div class="dropdown d-inline-block">
+                    <button class="btn btn-light btn-download dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-file-pdf me-1"></i> CVitae / Resume
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
+                        <li>
+                            <a class="dropdown-item" href="./documentos/CV_Martin_Lizarraga_ES.pdf" target="_blank" title="Currículum Vitae Español" download>
+                            <i class="fas fa-language me-2 text-info"></i> Español
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="./documentos/CV_Martin_Lizarraga_EN.pdf" target="_blank" title="Currículum Vitae Inglés" download>
+                            <i class="fas fa-globe me-2 text-warning"></i> English
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+            <!-- BARRA DE NAVEGACIÓN PRINCIPAL -->
+            <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#perfil">Perfil</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#trayectoria">Trayectoria</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#educacion">Educacion</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#intereses" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Intereses
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-menu-item dropdown-item" href="#hobbies">Hobbies</a></li>
+                                <li><a class="dropdown-menu-item dropdown-item" href="#viajes">Viajes</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- =============================== CONTENIDO PRINCIPAL ====================================== -->
+
+    <!-- SECCIÓN: PERFIL: BIENVENIDA y MULTIMEDIA -->
+    <section id="perfil" class="profile-hero d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-4 text-center text-md-end mb-4 mb-md-0">
+                    <img src="./imagen/foto_perfil_martin_lizarraga.jpg" alt="Fotografía Profesional de Martin Lizarraga" class="profile-img-frame img-fluid">
+                </div>
+                <div class="col-md-8 text-center text-md-start">
+                    <h1 class="display-4 fw-bold">Bienvenido a mi Portafolio</h1>
+                    <p class="lead fs-3">“Explora mi trayectoria, habilidades y proyectos”</p>
+                    <div class="mt-4 p-3 bg-dark bg-opacity-50 rounded">
+                        <h5 class="text-white mb-3"><i class="fas fa-play-circle me-2"></i>Multimedia de Presentación</h5>
+                        <div class="row">
+                            <div class="col-12 col-sm-6">
+                                <label class="form-label d-block text-light small">Ver Video de Introducción:</label>
+                                <div class="ratio ratio-16x9">
+                                    <video controls poster="./imagen/poster_video_presentacion.jpg">
+                                        <source src="./multimedia/presentacion.mp4" type="video/mp4">
+                                        Tu navegador no soporta el elemento de video.
+                                    </video>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 mb-3 mb-sm-0">
+                                <label class="form-label d-block text-light small">Escuchar Presentación (Audio):</label>
+                                <audio controls class="w-100">
+                                    <source src="./multimedia/audio-bienvenida.mp3" type="audio/mpeg">
+                                    Tu navegador no soporta el elemento de audio.
+                                </audio>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =============== SECCIÓN: TRAYECTORIA, EDUCACIÓN, HABILIDADES, INTERESES Y CONTACTO ===================-->
+
+    <!-- SECCIÓN: TRAYECTORIA -->
+    <div class="portfolio-main-bg"> <!-- FONDO DE PANTALLA PARA LAS SECCIONES DE CONTENIDO -->
+    <section id="trayectoria" class="trajectory-section py-5">
+        <div class="container">
+            <h2 class="section-title">Trayectoria</h2>
+            <div class="row g-4">
+                <div class="col-md-4 text-center text-md-start">
+                    <div class="p-3 bg-white h-100 rounded shadow-sm trajectory-card">
+                        <h5><strong>Techwise</strong></h5>
+                        <p class="text-dark mb-1 fw-semibold">CEO – Ingeniero de Sistemas Senior</p>
+                        <p class="small text-muted mb-3">2014 – a la fecha</p>
+                        <img src="./imagen/img_trayectoria_techwise.jpg" alt="Infraestructura Tecnológica y Liderazgo en Techwise" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-4 text-center text-md-start">
+                    <div class="p-3 bg-white h-100 rounded shadow-sm trajectory-card">
+                        <h5><strong>EsSalud</strong></h5>
+                        <p class="text-muted mb-1">Técnico Reparación de Computadoras</p>
+                        <p class="small text-secondary">2012 – 2014</p>
+                        <img src="./imagen/img_trayectoria_essalud.png" alt="Soporte y Mantenimiento de Equipos Informáticos en EsSalud" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-4 text-center text-md-start">
+                    <div class="p-3 bg-white h-100 rounded shadow-sm trajectory-card">
+                        <h5><strong>Carnival Cruise Lines</strong></h5>
+                        <p class="text-muted mb-1">Engine Administrator - Miami. FL</p>
+                        <p class="small text-secondary">2000 – 2011</p>
+                        <img src="./imagen/img_trayectoria_carnival.jpg" alt="Gestión Administrativa en Operaciones Internacionales Carnival" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECCIÓN: PROYECTOS DESTACADOS: CARRUSEL DE BOOTSTRAP -->
+
+    <section id="proyectos" class="py-5 bg-light">
+        <section class="container">
+            <h2 class="section-title">Proyectos</h2>
+
+            <!-- Contenedor Maestro del Carrusel con ID único -->
+            <div id="carruselProyectos" class="carousel slide" data-bs-ride="carousel">
+  
+                <!-- 1. Indicadores (Las rayitas de abajo para saber en qué proyecto estás) -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carruselProyectos" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Proyecto 1"></button>
+                    <button type="button" data-bs-target="#carruselProyectos" data-bs-slide-to="1" aria-label="Proyecto 2"></button>
+                    <button type="button" data-bs-target="#carruselProyectos" data-bs-slide-to="2" aria-label="Proyecto 3"></button>
+                </div>
+
+                <!-- 2. Contenido del Carrusel (Las tarjetas de los proyectos) -->
+                <div class="carousel-inner">
+    
+                    <!-- Proyecto 1 (Debe llevar la clase 'active' para que sea el primero en mostrarse) -->
+                    <div class="carousel-item active">
+                        <div class="card skill-card mx-auto" style="max-width: 700px;">
+                            <img src="./imagen/proyecto_seguridad.jpg" class="gallery-img w-100" alt="Proyecto de Seguridad Electrónica">
+                            <div class="card-body">
+                                <h3 class="skill-text mt-3">Sistema de Videovigilancia y Redes</h3>
+                                <p class="text-secondary mt-2">Diseño y auditoría tecnológica para infraestructura urbana con arquitectura de almacenamiento masivo y cámaras de alta velocidad.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                <!-- Proyecto 2 -->
+                <div class="carousel-item">
+                    <div class="card skill-card mx-auto" style="max-width: 700px;">
+                        <img src="./imagen/proyecto_automatizacion.jpg" class="gallery-img w-100" alt="Automatización Inteligente">
+                        <div class="card-body">
+                            <h3 class="skill-text mt-3">Smart Green Automation</h3>
+                            <p class="text-secondary mt-2">Integración de sistemas inteligentes orientados a la eficiencia energética y el control de accesos automatizados corporativos.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 3 -->
+                <div class="carousel-item">
+                <div class="card skill-card mx-auto" style="max-width: 700px;">
+                    <img src="./imagen/proyecto_ciberseguridad.jpg" class="gallery-img w-100" alt="Auditoría Tecnológica">
+                    <div class="card-body">
+                        <h3 class="skill-text mt-3">Consultoría y Auditoría de TI</h3>
+                        <p class="text-secondary mt-2">Implementación de sistemas expertos y análisis de vulnerabilidades en redes de datos para optimizar la seguridad perimetral digital.</p>
+                    </div>
+                </div>
+            </div>
+        
+
+            <!-- 3. Controles (Flechas de navegación Izquierda y Derecha) -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carruselProyectos" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carruselProyectos" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </section>
+    </section>
+
+
+    <!-- SECCIÓN: EDUCACIÓN: TABLA -->
+    <section id="educacion" class="py-5">
+        <div class="container">
+            <h2 class="section-title">Educación</h2>
+            <div class="table-responsive shadow-sm">
+                <table class="table table-striped table-hover table-custom align-middle mb-0">
+                    <thead>
+                        <tr>
+                            <th>Institucion</th>
+                            <th>Nivel</th>
+                            <th>Carrera / Especialidad</th>
+                            <th>Título Obtenido</th>
+                            <th>Periodo</th>
+                            <th>Estado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Cisco Netacad</td>
+                            <td>Superior</td>
+                            <td>Ciberseguridad</td>
+                            <td>Certificacion Especializada</td>
+                            <td>2026 – a la fecha</td>
+                            <td><span class="badge bg-warning text-dark">En curso</span></td>
+                        </tr>
+                        <tr>
+                            <td>IBM Academy</td>
+                            <td>Superior</td>
+                            <td>Ciberseguridad</td>
+                            <td>Certificación Especializada</td>
+                            <td>2026 – a la fecha</td>
+                            <td><span class="badge bg-warning text-dark">En curso</span></td>
+                        </tr>
+                        <tr>
+                            <td>Universidad Señor de Sipan</td>
+                            <td>Superior</td>
+                            <td>Ingeniería de Sistemas</td>
+                            <td>Bachiller</td>
+                            <td>2008 – 2013 / 2026</td>
+                            <td><span class="badge bg-warning text-dark">En curso</span></td>
+                        </tr>
+                        <tr>
+                            <td>IST Datapro</td>
+                            <td>Tecnica</td>
+                            <td>Profesional Técnico en Computación e Informática</td>
+                            <td>Titulado</td>
+                            <td>1985 – 1988</td>
+                            <td><span class="badge bg-success">Titulado</span></td>
+                        </tr>
+                        <tr>
+                            <td>Asociacion Cultural Peruano Británica</td>
+                            <td>Idiomas</td>
+                            <td>Inglés</td>
+                            <td>Diplomado en Inglés</td>
+                            <td>1978 – 1981</td>
+                            <td><span class="badge bg-info text-dark">Certificado</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- SECCIÓN: CERTIFICACIONES CON MODAL -->
+    <div class="container mt-2 mb-5">
+        <div class="row">
+            <div class="col-12 text-center mb-4">
+                <h3 class="fw-bold text-uppercase" style="color: var(--primary-color);">Certificaciones y Títulos</h3>
+                <p class="text-muted">Haz clic en cualquier recuadro para visualizar el documento oficial en alta resolución.</p>
+            </div>
+        </div>
+    
+
+        <!-- Rejilla Responsiva: 1 col en móvil, 2 en tablet, 4 en pantallas grandes -->
+        <d class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 pb-4">
+        
+            <!-- Certificado 1: Cisco Packet Tracer -->
+            <div class="col">
+                <div class="card h-100 certification-card text-center p-3 shadow-sm" data-bs-toggle="modal" data-bs-target="#modalCisco">
+                    <div class="card-icon mb-3">
+                        <i class="fas fa-network-wired fa-2x"></i>
+                    </div>
+                    <h5 class="card-title h6 fw-bold">Cisco Netacad</h5>
+                    <p class="card-text small text-muted mb-0">Packet Tracer</p>
+                    <span class="badge mt-2 custom-badge">Ver Documento</span>
+                </div>
+            </div>
+
+            <!-- Certificado 2: Santander 1 (Ejemplo de réplica) -->
+            <div class="col">
+                <div class="card h-100 certification-card text-center p-3 shadow-sm" data-bs-toggle="modal" data-bs-target="#modalSantander1">
+                    <div class="card-icon mb-3">
+                        <i class="fas fa-university fa-2x"></i>
+                    </div>
+                    <h5 class="card-title h6 fw-bold">Santander Open Academy</h5>
+                    <p class="card-text small text-muted mb-0">Inteligencia Artificial y la Etica</p>
+                    <span class="badge mt-2 custom-badge">Ver Documento</span>
+                </div>
+            </div>
+        
+                   
+            <!-- Certificado 3: Título de Analista Programador -->
+            <div class="col">
+                <div class="card h-100 certification-card text-center p-3 shadow-sm" data-bs-toggle="modal" data-bs-target="#modalAnalista">
+                    <div class="card-icon mb-3">
+                        <i class="fas fa-code fa-2x"></i>
+                    </div>
+                    <h5 class="card-title h6 fw-bold">Analista Programador</h5>
+                    <p class="card-text small text-muted mb-0">Título y Competencias en TI</p>
+                    <span class="badge mt-2 custom-badge">Ver Documento</span>
+                </div>
+            </div>
+        
+
+            <!-- Certificado 4: Introducción a la Ciencia de Datos -->
+            <div class="col">
+                <div class="card h-100 certification-card text-center p-3 shadow-sm" data-bs-toggle="modal" data-bs-target="#modalCienciaDatos">
+                    <div class="card-icon mb-3">
+                        <i class="fas fa-chart-pie fa-2x"></i>
+                    </div>
+                    <h5 class="card-title h6 fw-bold">Ciencia de Datos</h5>
+                    <p class="card-text small text-muted mb-0">Fundamentos y Aplicaciones en Ciencia de Datos</p>
+                    <span class="badge mt-2 custom-badge">Ver Documento</span>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+
+    <!-- ========================================== -->
+    <!-- CONTENEDORES DE LOS MODALES (VENTANAS EMERGENTES) -->
+    <!-- ========================================== -->
+
+    <!-- Modal 1: Título de Analista Programador -->
+    <div class="modal fade" id="modalAnalista" tabindex="-1" aria-labelledby="modalAnalistaLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content border-0 shadow">
+                <div class="modal-header text-white" style="background-color: var(--primary-color);">
+                    <h5 class="modal-title" id="modalAnalistaLabel"><i class="fas fa-user-graduate me-2"></i> Título Profesional - Analista Programador 1990</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center bg-light">
+                    <!-- Imagen del título -->
+                    <img src="./certificaciones/titulo_analista.jpg" alt="Título de Analista Programador" class="img-fluid rounded shadow-sm">
+                </div>
+                <div class="modal-footer justify-content-between bg-white">
+                    <span class="small text-muted">Acreditación de Competencias en Analisis y Diseño de Sistemas</span>
+                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Cerrar Ventana</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2: Cisco Packet Tracer -->
+    <div class="modal fade" id="modalCisco" tabindex="-1" aria-labelledby="modalCiscoLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg"> <!-- modal-lg para que se vea grande y centrado -->
+            <div class="modal-content border-0 shadow">
+                <div class="modal-header text-white" style="background-color: var(--primary-color);">
+                    <h5 class="modal-title" id="modalCiscoLabel" class="fw-bold"><i class="fas fa-certificate me-2"></i> Certificación Oficial Cisco</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center bg-light">
+                    <!-- Imagen certificado Cisco-->
+                    <img src="./certificaciones/certificado_cisco.jpg" alt="Certificado Cisco Packet Tracer" class="img-fluid rounded shadow-sm">
+                </div>
+                <div class="modal-footer justify-content-between bg-white">
+                    <span class="small text-muted">Cisco Networking Academy - Netacad</span>
+                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Cerrar Ventana</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal 3: Santander -->
+    <div class="modal fade" id="modalSantander1" tabindex="-1" aria-labelledby="modalSantander1Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content border-0 shadow">
+                <div class="modal-header text-white" style="background-color: var(--primary-color);">
+                    <h5 class="modal-title" id="modalSantander1Label fw-bold"><i class="fas fa-certificate me-2"></i> Certificación Santander Open Academy</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center bg-light">
+                    <img src="./certificaciones/certificado_santander1.jpg" alt="Certificado Santander" class="img-fluid rounded shadow-sm">
+                </div>
+                <div class="modal-footer justify-content-between bg-white">
+                    <span class="small text-muted">Banco Santander</span>
+                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Cerrar Ventana</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 4: Introducción a la Ciencia de Datos -->
+    <div class="modal fade" id="modalCienciaDatos" tabindex="-1" aria-labelledby="modalCienciaDatosLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content border-0 shadow">
+                <div class="modal-header text-white" style="background-color: var(--primary-color);">
+                    <h5 class="modal-title" id="modalCienciaDatosLabel"><i class="fas fa-database me-2"></i> Certificación en Ciencia de Datos</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center bg-light">
+                    <!-- Imagen del certificado de ciencia de datos -->
+                    <img src="./certificaciones/certificado_ciencia_datos.jpg" alt="Certificado Introducción a la Ciencia de Datos" class="img-fluid rounded shadow-sm">
+                </div>
+                <div class="modal-footer justify-content-between bg-white">
+                    <span class="small text-muted">Banco Santander - Principios de Ciencia de Datos</span>
+                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Cerrar Ventana</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+    <!-- SECCIÓN: HABILIDADES: TARJETAS CON ICONOS -->
+    <section id="habilidades" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title">Habilidades</h2>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-4 justify-content-center">
+                
+                <div class="col">
+                    <div class="skill-card shadow-sm">
+                        <img src="./imagen/icon_habilidad_ciberseguridad.jpg" alt="Icono de Ciberseguridad">
+                        <div class="skill-text">Ciberseguridad</div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="skill-card shadow-sm">
+                        <img src="./imagen/icon_habilidad_python_ml.png" alt="Icono de Python Machine Learning">
+                        <div class="skill-text">Python Machine Learning</div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="skill-card shadow-sm">
+                        <img src="./imagen/icon_habilidad_redes.png" alt="Icono de Redes y Conectividad">
+                        <div class="skill-text">Redes y Conectividad</div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="skill-card shadow-sm">
+                        <img src="./imagen/icon_habilidad_seguridad_electronica.png" alt="Icono de Seguridad Electrónica">
+                        <div class="skill-text">Seguridad Electrónica</div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="skill-card shadow-sm">
+                        <img src="./imagen/icon_automatizacion_procesos_ia.jpg" alt="Icono de Automatización de Procesos con IA">
+                        <div class="skill-text">Automatización de Procesos con IA</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN: INTERESES -->
+    <section id="intereseses_seccion" class="py-5">
+        <div class="container">
+            <h2 class="section-title">Intereses</h2>
+            
+
+            <!-- SUBSECCIÓN: HOBBIES -->
+            <div id="hobbies" class="mb-5">
+                <h3 class="text-secondary h5 mb-3"><i class="fas fa-heart me-2"></i>Hobbies</h3>
+                <div class="row g-3">
+                    <div class="col-md-4">
+                        <img src="./imagen/hobby_gimnasio.jpg" alt="Hobby - Entrenamiento en el Gimnasio" class="gallery-img shadow-sm">
+                        <p class="text-center mt-2 small fw-bold">Gimnasio</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagen/hobby_leer.jpg" alt="Hobby - Lectura y Estudio Continuo" class="gallery-img shadow-sm">
+                        <p class="text-center mt-2 small fw-bold">Leer</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagen/hobby_artes_marciales.jpg" alt="Hobby - Disciplina en Artes Marciales" class="gallery-img shadow-sm">
+                        <p class="text-center mt-2 small fw-bold">Artes Marciales</p>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="my-5 opacity-25">
+
+            <!-- SUBSECCIÓN: VIAJES -->
+            <div id="viajes">
+                <h3 class="text-secondary h5 mb-3"><i class="fas fa-globe-americas me-2"></i>Viajes / Lugares Visitados</h3>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <img src="./imagen/viaje_helsinki.jpg" alt="Viaje - Paisaje arquitectónico de Helsinki" class="gallery-img shadow-sm">
+                        <p class="text-center mt-2 small fw-bold"><span>Helsinki</span></p>
+                    </div>
+                    <div class="col">
+                        <img src="./imagen/viaje_roma.jpg" alt="Viaje - Monumentos Históricos de Roma" class="gallery-img shadow-sm">
+                        <p class="text-center mt-2 small fw-bold"><span>Roma</span></p>
+                    </div>
+                    <div class="col">
+                        <img src="./imagen/viaje_barcelona.jpg" alt="Viaje - Arquitectura y Cultura en Barcelona" class="gallery-img shadow-sm">
+                        <p class="text-center mt-2 small fw-bold"><span>Barcelona</span></p>
+                    </div>
+                    <div class="col">
+                        <img src="./imagen/viaje_venecia.jpg" alt="Viaje - Canales Románticos de Venecia" class="gallery-img shadow-sm">
+                        <p class="text-center mt-2 small fw-bold"><span>Venecia</span></p>
+                    </div>
+                    <div class="col">
+                        <img src="./imagen/viaje_halifax.jpg" alt="Viaje - Paisaje Marítimo de Halifax" class="gallery-img shadow-sm">
+                        <p class="text-center mt-2 small fw-bold"><span>Halifax</span></p>
+                    </div>
+                    <div class="col">
+                        <img src="./imagen/viaje_new_york.jpg" alt="Viaje - Manhattan" class="gallery-img shadow-sm">
+                        <p class="text-center mt-2 small fw-bold"><span>New York</span></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECCIÓN: CONTACTO -->
+    <section id="contacto" class="py-5 bg-light">
+        <div class="container" style="max-width: 700px;">
+            <div class="bg-white p-4 p-md-5 rounded shadow-sm border">
+                <h2 class="text-center mb-4 fw-bold text-dark" style="font-size: 1.6rem;">¿Interesado en un Proyecto?</h2>
+                
+                <form action="#" method="POST">
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label fw-semibold small text-secondary">Nombre Completo (nombres y apellidos)</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Ej. Juan Pérez" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="empresa" class="form-label fw-semibold small text-secondary">Empresa (nombre de la empresa)</label>
+                        <input type="text" class="form-control" id="empresa" placeholder="Ej. Techwise SAC" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label fw-semibold small text-secondary">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="email" placeholder="correo@ejemplo.com" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="whatsapp" class="form-label fw-semibold small text-secondary">Celular / Whatsapp</label>
+                        <input type="tel" class="form-control" id="whatsapp" placeholder="+51 999 999 999" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="consulta" class="form-label fw-semibold small text-secondary">Consulta</label>
+                        <select class="form-select" id="consulta" required>
+                            <option value="" disabled selected>Seleccione una opción de interés</option>
+                            <option value="seguridad_electronica">Seguridad Electronica</option>
+                            <option value="ciberseguridad">Ciberseguridad</option>
+                            <option value="redes">Redes</option>
+                            <option value="power_bi_ia">Power Bi / IA Generativa</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="mensaje" class="form-label fw-semibold small text-secondary">Mensaje</label>
+                        <textarea class="form-control" id="mensaje" rows="4" placeholder="Detalle los requerimientos de su proyecto o consulta aquí..." required></textarea>
+                    </div>
+
+                    <div class="d-flex gap-3">
+                        <button type="submit" class="btn btn-primary w-50 py-2 fw-bold" style="background-color: var(--secondary-color); border:none;">Enviar</button>
+                        <button type="reset" class="btn btn-outline-secondary w-50 py-2 fw-bold">Limpiar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    </div> <!-- CIERRE DEL FONDO DE PANTALLA-->
+
+    <!-- =====================================PIE DE PÁGINA ============================================= -->
+    <footer class="py-4 mt-auto">
+        <div class="container text-center text-md-start">
+            <div class="row align-items-center g-3">
+                <div class="col-md-6 col-12 small text-md-start text-center">
+                    <p class="mb-1"><i class="fab fa-whatsapp me-2 text-success"></i><strong>Whatsapp:</strong> +51 992 152 656</p>
+                    <p class="mb-0"><i class="fas fa-envelope me-2"></i><strong>Correo:</strong> martinlizarragahernandez@gmail.com</p>
+                </div>
+
+                <!-- ENLACES PERSONALES / CORPORATIVOS -->
+                <div class="col-md-6 col-12 text-md-end text-center">
+                    <span class="small me-2 text-white-50">Enlaces Corporativos:</span>
+                    <a href="https://www.linkedin.com/in/martin-lizarraga-2a598b38" target="_blank" class="me-3" title="Linkedin"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/mrafael56/" target="_blank" class="me-3" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/martin.lizarraga.71/" target="_blank" class="me-3" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://techwise.pe" target="_blank" title="Techwise Peruana EIRL"><i class="fas fa-building"></i></a>
+                </div>
+            </div>
+            <hr class="my-3 bg-white opacity-25">
+            <div class="text-center small text-white-50">
+                &copy; 2026 Martin Lizarraga – Todos los derechos reservados
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCRIPTS DE BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
